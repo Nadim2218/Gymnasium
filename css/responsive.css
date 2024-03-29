@@ -1,0 +1,194 @@
+@media (max-width: 575.98px) {
+    /* NAV PART START */
+    .menu-bg ul li{
+        text-align: right;
+        padding-right: 10px;
+    }
+    .menu-bg ul li a::after{
+       display: none;
+    }
+    .menu-bg ul li a::before {
+        position: absolute;
+        content: '';
+        width: 0px;
+        height: 2px;
+        background-color: brown;
+        bottom: -5px;
+        right: -5px;
+        transition: 0.5s;
+      
+    }
+    .menu-bg ul li a:hover::before {
+       width: 100%;
+    }
+    .navbar-nav {
+        padding-top: 20px;
+    }
+    /* NAV PART END */
+    /* banner part start */
+    .banner-text p {
+      width: auto;
+      padding: 10px 10px 0;
+    }
+    /* banner part end */
+    .gal-gap{
+        row-gap: 10px;
+    }
+    .gal-gapp{
+        row-gap: 20px;
+    }
+    /* about part start */
+    #about .bottom{
+        order: 2;
+    }
+    #about .top{
+        order: 1;
+    }
+    .about-text p {
+        width: auto;
+        padding: 10px 10px 10px 10px;
+    }
+    /* about part end */
+    /* testi part start */
+    #testimonial .slick-dots {
+        left: 23%;
+        bottom: -67px;
+    }
+    .t-t p {
+        padding: 10px 10px;
+    }
+    /* testi part end */
+    /* company part start */
+      .prev{
+        display: none;
+      }
+      .next{
+        display: none;
+      }
+    /* company part end */
+    .f-img{
+        display: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 766.98px) {
+        /* NAV PART START */
+        .menu-bg ul li{
+            text-align: right;
+            padding-right: 10px;
+        }
+        .menu-bg ul li a::after{
+           display: none;
+        }
+        .menu-bg ul li a::before {
+            position: absolute;
+            content: '';
+            width: 0px;
+            height: 2px;
+            background-color: brown;
+            bottom: -5px;
+            right: -5px;
+            transition: 0.5s;
+          
+        }
+        .menu-bg ul li a:hover::before {
+           width: 100%;
+        }
+        .navbar-nav {
+            padding-top: 20px;
+        }
+        /* NAV PART END */
+        .gal-gapp{
+            row-gap: 20px;
+        }
+        .gal-gap{
+            row-gap: 10px;
+        }
+         /* about part start */
+    #about .bottom{
+        order: 2;
+    }
+    #about .top{
+        order: 1;
+    }
+    .about-text p {
+       padding-bottom: 10px;
+    }
+    /* about part end */
+    /* testimonial part start */
+    #testimonial .slick-dots {
+        left: 34%;
+        bottom: -67px;
+    }
+      /* company part start */
+      .prev{
+        display: none;
+      }
+      .next{
+        display: none;
+      }
+    /* company part end */
+    .f-img{
+        display: none;
+    }
+
+}
+
+@media (min-width: 767px) and (max-width: 991.98px) {
+        /* NAV PART START */
+        .menu-bg ul li{
+            text-align: right;
+            padding-right: 10px;
+        }
+        .menu-bg ul li a::after{
+           display: none;
+        }
+        .menu-bg ul li a::before {
+            position: absolute;
+            content: '';
+            width: 0px;
+            height: 2px;
+            background-color: brown;
+            bottom: -5px;
+            right: -5px;
+            transition: 0.5s;
+          
+        }
+        .menu-bg ul li a:hover::before {
+           width: 100%;
+        }
+        .navbar-nav {
+            padding-top: 20px;
+        }
+        /* NAV PART END */
+        .gal-gap{
+            row-gap: 10px;
+        }
+         /* about part start */
+    #about .bottom{
+        order: 2;
+    }
+    #about .top{
+        order: 1;
+    }
+    .about-text p {
+        width: auto;
+        padding: 10px 10px 10px 10px;
+    }
+    /* about part end */
+    /* testimonial */
+    #testimonial .slick-dots {
+        bottom: -64px;
+    }
+         /* company part start */
+         .prev{
+            display: none;
+          }
+          .next{
+            display: none;
+          }
+        /* company part end */
+        .f-img{
+            display: none;
+        }
+}
